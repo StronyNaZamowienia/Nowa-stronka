@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Fryzjerski Elegance</title>
+
+    <!-- Nowoczesna czcionka -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="fade-in">
+            <h1 class="logo">Elegance</h1>
+            <ul>
+                <li><a href="#uslugi">Usługi</a></li>
+                <li><a href="#cennik">Cennik</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero fade-in">
+            <h2>Salon Fryzjerski Elegance</h2>
+            <p>Profesjonalne strzyżenie, koloryzacja i pielęgnacja włosów.</p>
+            <button onclick="scrollToSection('kontakt')">Umów wizytę</button>
+        </div>
+    </header>
+
+    <section id="uslugi" class="section fade-in">
+        <h2>Nasze Usługi</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Strzyżenie damskie</h3>
+                <p>Stylowe cięcia dopasowane do Twojej urody.</p>
+            </div>
+            <div class="card">
+                <h3>Strzyżenie męskie</h3>
+                <p>Klasyczne i nowoczesne fryzury dla każdego.</p>
+            </div>
+            <div class="card">
+                <h3>Koloryzacja</h3>
+                <p>Profesjonalne farbowanie i tonowanie włosów.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cennik" class="section fade-in">
+        <h2>Cennik</h2>
+        <ul class="price-list">
+            <li>Strzyżenie damskie — <strong>70 zł</strong></li>
+            <li>Strzyżenie męskie — <strong>40 zł</strong></li>
+            <li>Koloryzacja — <strong>120–200 zł</strong></li>
+            <li>Modelowanie — <strong>50 zł</strong></li>
+        </ul>
+    </section>
+
+    <section id="kontakt" class="section fade-in">
+        <h2>Kontakt</h2>
+        <p><strong>Adres:</strong> ul. Kwiatowa 12, Szamotuły</p>
+        <p><strong>Telefon:</strong> 123 456 789</p>
+        <p><strong>Godziny otwarcia:</strong> Pon–Sob 9:00–18:00</p>
+    </section>
+
+    <footer class="fade-in">
+        <p>© 2026 Salon Fryzjerski Elegance — Wszystkie prawa zastrzeżone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
